@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-#### 🌱 Projects I’m occasionally working on 
+#### 🌱 Projects I’m occasionally working on (outside work)
 
 - [wurzelfenster-org/Wurzelfenster](https://github.com/wurzelfenster-org/Wurzelfenster) - A script for an experimental kit for school lessons
 
