@@ -10,6 +10,12 @@
 - [jakubczaplicki/anycubic-i3-mega](https://github.com/jakubczaplicki/anycubic-i3-mega) - Resources for Getting Started With 3D Printing with Anycubic i3 Mega
 
 
+<!--
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=wurzelfenster-org&repo=Wurzelfenster)](https://github.com/wurzelfenster-org/Wurzelfenster)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=jakubczaplicki&repo=hava)](https://github.com/jakubczaplicki/hava/)
+
+-->
+
 
 <!--
 **jakubczaplicki/jakubczaplicki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -25,3 +31,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+----
+<div align="center">
+
+  [![GitHub stats](https://github-readme-stats.vercel.app/api?username=jakubczaplicki&count_private=true&theme=radical)](https://github.com/jakubczaplicki)
+</div>
+
+----
