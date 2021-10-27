@@ -1,4 +1,11 @@
-### Hi there 👋
+<p>
+  <h1 align="center"><b>Hi there, I'm Jakub 👋 </h1>
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/jakubczaplicki"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+<a href="https://twitter.com/jakubczaplicki"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>&nbsp;
+</p>
 
 #### 🌱 Projects I’m occasionally (aka almost never) working on outside work
 
