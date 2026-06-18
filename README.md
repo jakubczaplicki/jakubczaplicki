@@ -17,9 +17,9 @@
 
 ### About
 
-- I build **lightweight, performance-minded developer tools** — mostly in C, Python and SQL.
+- I build **lightweight, performance-minded developer tools**.
 - I ship open source under **[C256 Labs](https://github.com/c256-labs)**.
-- Day to day I work with software and data engineering + ETL (Snowflake, dbt, Dagster).
+- Day to day I work with software and data engineering.
 - I like tools that do **one thing well** and stay small.
 
 ### Featured project
