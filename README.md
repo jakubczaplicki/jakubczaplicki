@@ -1,62 +1,69 @@
-<h1 align="center">Hi there, I'm Jakub 👋</h1>
+<!-- Optional retro-terminal banner — drop your C256-LABS animated GIF here -->
+<!-- <p align="center"><img src="assets/c256-labs.gif" alt="C256 Labs" width="640" /></p> -->
+
+<h1 align="center">Hi, I'm Jakub 👋</h1>
 
 <p align="center">
-  <i>Software & data engineer · building small, fast, open-source tools under <a href="https://github.com/c256-labs">C256 Labs</a></i>
+  <i>Independent software &amp; data engineer · computational-physics background · I build small, fast, open-source tools under <a href="https://github.com/c256-labs">C256&nbsp;Labs</a></i>
 </p>
 
 <p align="center">
   <a href="https://github.com/sponsors/jakubczaplicki"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/jakubczaplicki"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
   <a href="https://github.com/c256-labs"><img src="https://img.shields.io/badge/C256%20Labs-181717?style=for-the-badge&logo=github&logoColor=white" alt="C256 Labs" /></a>
-  <!--
-  <a href="https://twitter.com/jakubczaplicki"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-  -->
 </p>
 
 ---
 
-### About
+### `whoami`
 
-- I build **lightweight, performance-minded developer tools**.
-- I ship open source under **[C256 Labs](https://github.com/c256-labs)**.
-- Day to day I work with software and data engineering.
-- I like tools that do **one thing well** and stay small.
+Software & data engineer based in Poland.
 
-### Featured project
+I've shipped systems across **optical networking, embedded semiconductors, mobile health, environmental data, and fintech payments** — these days mostly **data platforms** (Dagster · dbt · Snowflake) and **payments infrastructure**. I like tools that do **one thing well** and stay small.
 
-**[parquet_viewer](https://github.com/c256-labs/parquet_viewer)** — a tiny terminal UI for browsing Parquet files. One small C binary that streams only the visible window of rows, so a 50 GB file uses about the same memory as a 5 MB one.
-<!--
-<p>
-  <a href="https://github.com/c256-labs/parquet_viewer"><img src="https://img.shields.io/github/v/release/c256-labs/parquet_viewer?style=flat-square" alt="release" /></a>
-  <a href="https://github.com/c256-labs/parquet_viewer/actions"><img src="https://img.shields.io/github/actions/workflow/status/c256-labs/parquet_viewer/ci.yml?style=flat-square&label=CI" alt="CI" /></a>
-  <a href="https://github.com/c256-labs/parquet_viewer/blob/main/LICENSE"><img src="https://img.shields.io/github/license/c256-labs/parquet_viewer?style=flat-square" alt="License" /></a>
-  <a href="https://github.com/c256-labs/parquet_viewer/stargazers"><img src="https://img.shields.io/github/stars/c256-labs/parquet_viewer?style=flat-square" alt="Stars" /></a>
-</p>
--->
-
-### ❤️ Support my work
-
-If my open-source tools save you time, you can help keep them maintained:
-
-<p>
-  <a href="https://github.com/sponsors/jakubczaplicki"><img src="https://img.shields.io/badge/GitHub%20Sponsors-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="GitHub Sponsors" /></a>
-</p>
-
-Sponsoring funds maintenance, new features, and more small tools released under **C256 Labs**. Every bit is appreciated 🙏
+```toml
+# ~/.config/c256/stack.toml
+languages  = ["Python", "C", "SQL", "Kotlin", "Bash"]
+data       = ["Dagster", "dbt", "Snowflake", "Snowpark", "Polars", "ClickHouse", "PostgreSQL"]
+streaming  = ["Kafka", "Redis", "RabbitMQ", "Celery"]
+infra      = ["Docker", "Kubernetes", "AWS", "Azure", "Terraform", "Jenkins"]
+geospatial = ["H3", "OSM / Nominatim / Overpass"]
+poking_at  = ["on-device ML (YAMNet)", "embeddings + LLM pipelines", "retro TUIs"]
+```
 
 <!--
-#### 🌱 Some Open Source projects I used to work on
+### Selected work
 
-- [wurzelfenster-org/Wurzelfenster](https://github.com/wurzelfenster-org/Wurzelfenster) - A script for an experimental kit for school lessons
-- [jakubczaplicki/hava](https://github.com/jakubczaplicki/hava/) - An air quality data collector for a mobile air quality station (SDS011 + RaspberryPi)
-- [jakubczaplicki/aqua_iot](https://github.com/jakubczaplicki/aqua_iot) - A simple temperature monitoring system for aquarium. Based on Particle Photon, MQTT and Home Assistant.
-- [jakubczaplicki/anycubic-i3-mega](https://github.com/jakubczaplicki/anycubic-i3-mega) - Resources for Getting Started With 3D Printing with Anycubic i3 Mega
--->
+15+ years, backend & data — a few things I've shipped:
 
+- **AP-audit data platform** — multi-tenant pipeline (ERP → dedup → harmonisation → multi-algorithm risk scoring). Built a Snowpark vendor entity-resolution engine that cut multi-day legacy runs to **seconds** at **~93% agreement** vs manual grouping. Dagster + dbt (150+ models), LLM audit pipeline on Kubernetes/Azure.
+- **Payments infrastructure** — early backend & payments architecture: US + international payments, card processing, core ledger, and 3rd-party fraud-detection integration across microservices.
+- **Environmental data platform** — real-time Kafka streaming with ClickHouse/Redis and geospatial enrichment (H3, OSM), pulling from **150+ global sources**.
+- **Embedded / silicon** — CI/test infrastructure and cross-platform integration frameworks for chip firmware on emulators and silicon (Jenkins, Linux).
+- **Optical switching** — LabVIEW test & automation for all-optical circuit-switching hardware — the same OCS technology now becoming foundational to hyperscale AI data-center networks.
+--> 
+### Projects
+
+- **[parquet_viewer](https://github.com/c256-labs/parquet_viewer)** — a tiny terminal UI for browsing Parquet files. One small C binary that streams only the visible window of rows, so a 50 GB file uses about the same memory as a 5 MB one.
+- **[hava](https://github.com/jakubczaplicki/hava)** — air-quality collector for a mobile sensor station (SDS011 + Raspberry Pi).
+- **[aqua_iot](https://github.com/jakubczaplicki/aqua_iot)** — aquarium temperature monitoring (Particle Photon · MQTT · Home Assistant).
+
+### OS contributions
+
+- **[everblu-meters-esp8266-improved](https://github.com/jakubczaplicki/everblu-meters-esp8266-improved)** — improved ESP8266 firmware for reading water meters over RF (Home Assistant integration).
+- **[Wurzelfenster](https://github.com/wurzelfenster-org/Wurzelfenster)** — script for a school-lessons experiment kit.
+
+---
 <!--
-### 📈 GitHub stats
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jakubczaplicki&show_icons=true&hide_border=true" alt="stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jakubczaplicki&layout=compact&hide_border=true" alt="top langs" height="160" />
+  <i>Independent · open to select backend &amp; data-platform work.</i>
+</p>
+
+
+### GitHub stats (optional — uncomment if you want them)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jakubczaplicki&show_icons=true&hide_border=true" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jakubczaplicki&layout=compact&hide_border=true" height="160" />
 </p>
 -->
