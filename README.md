@@ -24,9 +24,9 @@ I've shipped systems across **optical networking, embedded semiconductors, mobil
 ```toml
 # ~/.config/c256/stack.toml
 languages  = ["Python", "C", "SQL", "Kotlin", "Bash"]
-data       = ["Dagster", "dbt", "Snowflake", "Snowpark", "Polars", "ClickHouse", "PostgreSQL"]
+data       = ["Dagster", "dbt", "PostgreSQL", "ClickHouse", "Snowflake", "Snowpark", "Polars"]
 streaming  = ["Kafka", "Redis", "RabbitMQ", "Celery"]
-infra      = ["Docker", "Kubernetes", "AWS", "Azure", "Terraform", "Jenkins"]
+infra      = ["Docker", "Kubernetes", "AWS", "Azure", "GCS", "Oracle", "Terraform"]
 geospatial = ["H3", "OSM / Nominatim / Overpass"]
 poking_at  = ["on-device ML (YAMNet)", "embeddings + LLM pipelines", "retro TUIs"]
 ```
@@ -44,14 +44,16 @@ poking_at  = ["on-device ML (YAMNet)", "embeddings + LLM pipelines", "retro TUIs
 --> 
 ### Projects
 
-- **[parquet_viewer](https://github.com/c256-labs/parquet_viewer)** — a tiny terminal UI for browsing Parquet files. One small C binary that streams only the visible window of rows, so a 50 GB file uses about the same memory as a 5 MB one.
+- **[parquet_viewer](https://github.com/c256-labs/parquet_viewer)** — a tiny terminal UI for browsing Parquet files
+
+### Old Projects and OS contributions
+
 - **[hava](https://github.com/jakubczaplicki/hava)** — air-quality collector for a mobile sensor station (SDS011 + Raspberry Pi).
 - **[aqua_iot](https://github.com/jakubczaplicki/aqua_iot)** — aquarium temperature monitoring (Particle Photon · MQTT · Home Assistant).
-
-### OS contributions
-
 - **[everblu-meters-esp8266-improved](https://github.com/jakubczaplicki/everblu-meters-esp8266-improved)** — improved ESP8266 firmware for reading water meters over RF (Home Assistant integration).
 - **[Wurzelfenster](https://github.com/wurzelfenster-org/Wurzelfenster)** — script for a school-lessons experiment kit.
+
+
 
 ---
 <!--
