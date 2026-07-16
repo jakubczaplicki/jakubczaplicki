@@ -4,7 +4,7 @@
 <h1 align="center">Hi, I'm Jakub 👋</h1>
 
 <p align="center">
-  <i>Independent software &amp; data engineer · computational-physics background · I build small, fast, open-source tools under <a href="https://github.com/c256-labs">C256&nbsp;Labs</a></i>
+  <i>Independent software &amp; data engineer · computational-physics background · I build small, fast, open-source tools and sometimes useful Android apps under <a href="https://github.com/c256-labs">C256&nbsp;Labs</a></i>
 </p>
 
 <p align="center">
