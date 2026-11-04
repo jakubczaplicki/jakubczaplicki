@@ -1,10 +1,10 @@
 <!-- Optional retro-terminal banner — drop your C256-LABS animated GIF here -->
-<!-- <p align="center"><img src="assets/c256-labs.gif" alt="C256 Labs" width="640" /></p> -->
+ <p align="center"><img src="assets/c256-labs.gif" alt="C256 Labs" width="640" /></p>
 
 <h1 align="center">Hi, I'm Jakub 👋</h1>
 
 <p align="center">
-  <i>Independent software &amp; data engineer · computational-physics background · I build small, fast, open-source tools and sometimes useful Android apps under <a href="https://github.com/c256-labs">C256&nbsp;Labs</a></i>
+  <i>Independent software &amp; data engineer · computational-physics background · small open-source tools under <a href="https://github.com/c256-labs">C256&nbsp;Labs</a></i>
 </p>
 
 <p align="center">
@@ -17,18 +17,16 @@
 
 ### `whoami`
 
-Software & data engineer based in Poland.
-
-I've shipped systems across **optical networking, embedded semiconductors, mobile health, environmental data, and fintech payments** — these days mostly **data platforms** (Dagster · dbt · Snowflake) and **payments infrastructure**. I like tools that do **one thing well** and stay small.
+Software & data engineer based in Poland. I've shipped systems across optical networking, embedded semiconductors, mobile health, environmental data and fintech payments. I like data and tools that do one thing well and stay small.
 
 ```toml
 # ~/.config/c256/stack.toml
-languages  = ["Python", "C", "SQL", "Kotlin", "Bash"]
-data       = ["Dagster", "dbt", "PostgreSQL", "ClickHouse", "Snowflake", "Snowpark", "Polars"]
-streaming  = ["Kafka", "Redis", "RabbitMQ", "Celery"]
-infra      = ["Docker", "Kubernetes", "AWS", "Azure", "GCS", "Oracle", "Terraform"]
-geospatial = ["H3", "OSM / Nominatim / Overpass"]
-poking_at  = ["on-device ML (YAMNet)", "embeddings + LLM pipelines", "retro TUIs"]
+languages = ["Python", "C", "SQL", "Kotlin", "Bash"]
+data      = ["Dagster", "dbt", "PostgreSQL", "ClickHouse", "Snowflake", "Polars", "Parquet"]
+infra     = ["Docker", "Kubernetes", "Terraform", "AWS", "Grafana"]
+ai_dev    = ["Claude Code", "AGENTS.md", "custom agent skills", "MCP server authoring",
+             "spec → code", "agent-driven soak tests", "parallel agent sessions",
+             "adversarial AI review", "human-reviewed stacked PRs"]
 ```
 
 <!--
@@ -41,31 +39,18 @@ poking_at  = ["on-device ML (YAMNet)", "embeddings + LLM pipelines", "retro TUIs
 - **Environmental data platform** — real-time Kafka streaming with ClickHouse/Redis and geospatial enrichment (H3, OSM), pulling from **150+ global sources**.
 - **Embedded / silicon** — CI/test infrastructure and cross-platform integration frameworks for chip firmware on emulators and silicon (Jenkins, Linux).
 - **Optical switching** — LabVIEW test & automation for all-optical circuit-switching hardware — the same OCS technology now becoming foundational to hyperscale AI data-center networks.
---> 
+-->
+
 ### Projects
 
-- **[parquet_viewer](https://github.com/c256-labs/parquet_viewer)** — a tiny terminal UI for browsing Parquet files
-
-### Old Projects and OS contributions
+- **[parquet_viewer](https://github.com/c256-labs/parquet_viewer)** — a tiny terminal UI for browsing Parquet files.
+- **personal-health-assistant** *(Android, in progress)* — a side project I'm building in my spare time.
+  
+### Old projects and OSS contributions
 
 - **[hava](https://github.com/jakubczaplicki/hava)** — air-quality collector for a mobile sensor station (SDS011 + Raspberry Pi).
 - **[aqua_iot](https://github.com/jakubczaplicki/aqua_iot)** — aquarium temperature monitoring (Particle Photon · MQTT · Home Assistant).
 - **[everblu-meters-esp8266-improved](https://github.com/jakubczaplicki/everblu-meters-esp8266-improved)** — improved ESP8266 firmware for reading water meters over RF (Home Assistant integration).
 - **[Wurzelfenster](https://github.com/wurzelfenster-org/Wurzelfenster)** — script for a school-lessons experiment kit.
 
-
-
 ---
-<!--
-
-<p align="center">
-  <i>Independent · open to select backend &amp; data-platform work.</i>
-</p>
-
-
-### GitHub stats (optional — uncomment if you want them)
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jakubczaplicki&show_icons=true&hide_border=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jakubczaplicki&layout=compact&hide_border=true" height="160" />
-</p>
--->
