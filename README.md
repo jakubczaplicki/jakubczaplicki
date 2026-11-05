@@ -1,5 +1,4 @@
-<!-- Optional retro-terminal banner — drop your C256-LABS animated GIF here -->
- <p align="center"><img src="assets/c256-labs.gif" alt="C256 Labs" width="640" /></p>
+<p align="center"><img src="assets/cube-menger-lite.svg" alt="Rotating Menger sponge" width="200" /></p>
 
 <h1 align="center">Hi, I'm Jakub 👋</h1>
 
